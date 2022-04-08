@@ -17,14 +17,14 @@ body {
 .container {
   max-width: 100%;
   margin: 0 auto;
-  padding: 0 2.5rem;
+  padding: 0 7rem;
 }
 
 .wrapper {
   display: flex;
   background-color: $color-light-gray;
   justify-content: space-between;
-  padding: 0.25rem 2.5rem;
+  padding: 0.25rem;
 }
 
 .brands {
@@ -57,4 +57,101 @@ body {
   :hover {
     opacity: 0.75;
   }
+}
+
+// Navbar section
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    opacity: 1;
+    :hover {
+      opacity: 0.725;
+    }
+  }
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  margin-inline: auto;
+  margin-left: 35.5rem;
+}
+
+.nav ul {
+  flex: 1;
+  display: flex;
+  list-style: none;
+  font-size: 1rem;
+  li {
+    margin-inline: 1rem;
+    display: flex;
+    align-items: center;
+    padding-inline: 0rem;
+  }
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  .search {
+    display: flex;
+    background-color: $color-light-gray;
+    padding: 0.25rem 0 0.25rem 0;
+    border-radius: 4rem;
+    border: none;
+    input {
+      border: none;
+      background-color: $color-light-gray;
+      font-size: 1rem;
+      outline: none;
+      :hover {
+        background: red;
+      }
+    }
+    input::placeholder {
+      color: rgb(189, 187, 187);
+    }
+    button {
+      width: 75%;
+      padding-inline: 0.9rem;
+      border: inherit;
+      background-color: transparent;
+    }
+  }
+
+  .icons {
+    display: flex;
+    margin-inline: 1rem;
+    .cart-icon {
+      margin-left: 1rem;
+    }
+  }
+}
+
+// banner wrapper
+.banner-wrapper {
+  background-color: $color-light-gray;
+  width: 100%;
+
+  .text {
+    padding: 0.35rem 0;
+    text-align: center;
+    line-height: 1.3rem;
+    span {
+      display: block;
+      font-size: 0.9rem;
+    }
+    a {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+// hero img
+
+.hero img {
+  width: 100%;
+  margin: 0 auto;
 }
