@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -214,5 +214,54 @@ body {
 .hero img {
   width: 100%;
   margin: 0 auto;
+}
+
+.hero-text {
+  text-align: center;
+  padding-block: 2rem;
+}
+
+.hero-text h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3.7rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -0.2rem;
+}
+
+.hero-text h2 {
+  margin-bottom: 2rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-text .btn-section button {
+  padding: 0.5rem 1.2rem;
+  background-color: black;
+  color: white;
+  border-radius: 2rem;
+}
+
+.hero-text .btn-section button svg {
+  margin-left: 10px;
+}
+
+.featured .text {
+  font-size: 1.5rem;
+  margin-block: 1rem;
+}
+
+.featured img {
+  margin-right: 0.5rem;
+  position: relative;
+}
+
+.selected .text {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
