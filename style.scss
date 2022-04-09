@@ -15,9 +15,13 @@ body {
 }
 
 .container {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 0 7rem;
+}
+
+.pre-container {
+  background-color: $color-light-gray;
 }
 
 .wrapper {
@@ -25,6 +29,7 @@ body {
   background-color: $color-light-gray;
   justify-content: space-between;
   padding: 0.25rem;
+  width: 100%;
 }
 
 .brands {
@@ -98,7 +103,7 @@ body {
   .search {
     display: flex;
     background-color: $color-light-gray;
-    padding: 0.25rem 0 0.25rem 0;
+    padding: 0.25rem 0.5rem 0.25rem 0;
     border-radius: 4rem;
     border: none;
     input {
@@ -106,9 +111,6 @@ body {
       background-color: $color-light-gray;
       font-size: 1rem;
       outline: none;
-      :hover {
-        background: red;
-      }
     }
     input::placeholder {
       color: rgb(189, 187, 187);
@@ -124,8 +126,12 @@ body {
   .icons {
     display: flex;
     margin-inline: 1rem;
+    cursor: pointer;
     .cart-icon {
       margin-left: 1rem;
+      :hover {
+        border-radius: 50%;
+      }
     }
   }
 }
@@ -145,6 +151,8 @@ body {
     }
     a {
       font-size: 0.7rem;
+      text-decoration: none;
+      color: black;
     }
   }
 }
@@ -181,6 +189,7 @@ body {
       background-color: black;
       color: white;
       border-radius: 2rem;
+      cursor: pointer;
       svg {
         margin-left: 10px;
       }
@@ -197,7 +206,6 @@ body {
   }
   img {
     margin-right: 0.5rem;
-    position: relative;
   }
 }
 
@@ -206,5 +214,9 @@ body {
     font-size: 1.5rem;
     margin-top: 3rem;
     margin-bottom: 1rem;
+  }
+  .selected-img {
+    width: 100%;
+    margin: 0 auto;
   }
 }

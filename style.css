@@ -12,9 +12,13 @@ body {
 }
 
 .container {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 0 7rem;
+}
+
+.pre-container {
+  background-color: #f5f5f5;
 }
 
 .wrapper {
@@ -26,6 +30,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0.25rem;
+  width: 100%;
 }
 
 .brands {
@@ -141,7 +146,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   background-color: #f5f5f5;
-  padding: 0.25rem 0 0.25rem 0;
+  padding: 0.25rem 0.5rem 0.25rem 0;
   border-radius: 4rem;
   border: none;
 }
@@ -151,10 +156,6 @@ body {
   background-color: #f5f5f5;
   font-size: 1rem;
   outline: none;
-}
-
-.right-section .search input :hover {
-  background: red;
 }
 
 .right-section .search input::-webkit-input-placeholder {
@@ -185,10 +186,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-inline: 1rem;
+  cursor: pointer;
 }
 
 .right-section .icons .cart-icon {
   margin-left: 1rem;
+}
+
+.right-section .icons .cart-icon :hover {
+  border-radius: 50%;
 }
 
 .banner-wrapper {
@@ -209,6 +215,8 @@ body {
 
 .banner-wrapper .text a {
   font-size: 0.7rem;
+  text-decoration: none;
+  color: black;
 }
 
 .hero img {
@@ -243,6 +251,7 @@ body {
   background-color: black;
   color: white;
   border-radius: 2rem;
+  cursor: pointer;
 }
 
 .hero-text .btn-section button svg {
@@ -256,12 +265,16 @@ body {
 
 .featured img {
   margin-right: 0.5rem;
-  position: relative;
 }
 
 .selected .text {
   font-size: 1.5rem;
   margin-top: 3rem;
   margin-bottom: 1rem;
+}
+
+.selected .selected-img {
+  width: 100%;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
