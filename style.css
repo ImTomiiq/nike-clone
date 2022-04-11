@@ -14,7 +14,7 @@ body {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 7rem;
+  padding: 0 3rem;
 }
 
 .pre-container {
@@ -259,12 +259,74 @@ body {
 }
 
 .featured .text {
-  font-size: 1.5rem;
-  margin-block: 1rem;
+  font-size: 1.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 1.5rem;
 }
 
 .featured img {
-  margin-right: 0.5rem;
+  width: 50%;
+  margin-right: 0.725rem;
+}
+
+.featured .featured-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.featured .featured-text {
+  position: absolute;
+  top: 80%;
+  right: 84%;
+  color: white;
+  font-size: 1.6rem;
+  inline-size: 12rem;
+  font-weight: 400;
+}
+
+.featured .featured-text button {
+  margin-top: 2rem;
+  background-color: white;
+  padding: 0.5rem 1.25rem;
+  color: black;
+  border: none;
+  border-radius: 4rem;
+}
+
+.featured .featured-text button:hover {
+  background-color: #a49e9e;
+  cursor: pointer;
+}
+
+.featured .featured-text-2 {
+  position: absolute;
+  top: 80%;
+  right: 33%;
+  color: white;
+  font-size: 1.6rem;
+  inline-size: 13rem;
+  font-weight: 400;
+}
+
+.featured .featured-text-2 button {
+  margin-top: 2rem;
+  background-color: white;
+  padding: 0.5rem 1.25rem;
+  color: black;
+  border: none;
+  border-radius: 4rem;
+}
+
+.featured .featured-text-2 button:hover {
+  background-color: #a49e9e;
+  cursor: pointer;
 }
 
 .selected .text {
@@ -276,5 +338,90 @@ body {
 .selected .selected-img {
   width: 100%;
   margin: 0 auto;
+}
+
+.shoes {
+  padding-bottom: 1rem;
+}
+
+.shoes a {
+  text-decoration: none;
+}
+
+.shoes .wrapper2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.shoes .text-area {
+  font-size: 1.4rem;
+}
+
+.shoes .btn-area {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shoes .btn-area .btn-light {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: lightgray;
+  padding: 1rem 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 50%;
+  opacity: 50%;
+  height: 80%;
+  margin-right: 1rem;
+}
+
+.shoes .btn-area .btn-dark:hover {
+  background-color: #958e8e;
+  cursor: pointer;
+}
+
+.shoes .btn-area .btn-dark {
+  background-color: #b9b4b4;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 50%;
+  opacity: 50%;
+  height: 80%;
+  margin-right: 1rem;
+}
+
+.shoes .shoes-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shoes img {
+  width: 100%;
+  margin-right: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
