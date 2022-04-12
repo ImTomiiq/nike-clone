@@ -585,6 +585,10 @@ body {
   padding: 0 30rem;
 }
 
+.medium-container {
+  padding: 2rem 20rem;
+}
+
 .navbar2 {
   color: #111;
   padding-top: 10rem;
@@ -611,7 +615,7 @@ body {
 .footer {
   background-color: #111;
   width: 100%;
-  height: 30vh;
+  height: 35vh;
   color: white;
 }
 
@@ -619,5 +623,98 @@ body {
   background-color: #f5f5f5;
   width: 100%;
   height: 4vh;
+}
+
+.footer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-info .left-side .country {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-info .left-side .country span {
+  color: lightgray;
+  padding-left: 1rem;
+}
+
+.footer-info .left-side .country svg {
+  margin-right: 1rem;
+}
+
+.footer-info .right-side {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-info .right-side a {
+  text-decoration: none;
+  font-size: 0.725rem;
+  color: lightgray;
+  padding-right: 1rem;
+}
+
+.link-section {
+  display: inline-block;
+  line-height: 2.25rem;
+  font-size: 1rem;
+  padding-right: 8rem;
+}
+
+.link-section .link-section2 li,
+.link-section .link-section3 li {
+  color: lightgray;
+}
+
+.link-section .link-section1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.link-section .link-section1 li,
+.link-section .link-section2 li,
+.link-section .link-section3 li {
+  list-style: none;
+}
+
+.link-section .link-section1 h2,
+.link-section .link-section2 h2,
+.link-section .link-section3 h2 {
+  text-transform: uppercase;
+  font-size: inherit;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .icon-section {
+  margin-left: auto;
+}
+
+.section .icon-section svg {
+  margin-right: 1rem;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.section .icon-section svg:hover {
+  opacity: 0.3;
 }
 /*# sourceMappingURL=style.css.map */
